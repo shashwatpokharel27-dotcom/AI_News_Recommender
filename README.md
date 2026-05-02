@@ -17,26 +17,39 @@ AI_News_Recommender/
 ## 🖼️ Project Demo
 
 ### 1. Default View
-![Default View](screenshots/default.png)
-*The initial state of the application.*
--------------------------------------------------------------------------------------------------------
+<div style="border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <img src="screenshots/default.png" width="100%">
+</div>
+<p><i>The initial state of the application.</i></p>
+
+---
 
 ### 2. Searching for Articles
-![Search View](screenshots/search.png)
-*Inputting a query into the search bar.*
-------------------------------------------------------------------------------------------------------
+<div style="border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <img src="screenshots/search.png" width="100%">
+</div>
+<p><i>Inputting a query into the search bar.</i></p>
+
+---
 
 ### 3. Recommendations
-![Recommendations](screenshots/recommendations.png)
-*Top articles with relevance scores.*
--------------------------------------------------------------------------------------------------------
+<div style="border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <img src="screenshots/recommendations.png" width="100%">
+</div>
+<p><i>Top articles with relevance scores.</i></p>
+
+---
 
 ### 4. Source Redirection
-![Redirect 1](screenshots/redirect1.png) 
----
-![Redirect 2](screenshots/redirect2.png)
-*Redirecting to the official Indian Express site.*
+<div style="border:1px solid #ccc; padding:10px; border-radius:8px;">
+  <img src="screenshots/redirect1.png" width="100%">
+</div>
 
+<div style="border:1px solid #ccc; padding:10px; border-radius:8px; margin-top:10px;">
+  <img src="screenshots/redirect2.png" width="100%">
+</div>
+
+<p><i>Redirecting to the official Indian Express site.</i></p>
 ---
 
 ## 🛠️ Setup and Installation
