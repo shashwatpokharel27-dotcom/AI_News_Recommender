@@ -7,20 +7,31 @@ It is an AI-powered news recommendation tool that helps users discover relevant 
 ```text
 AI_News_Recommender/
 │
-├── streamlit_app.py          # Streamlit Web App (Main Entry Point)
-├── requirements.txt          # Python dependencies
-├── .gitignore                # Files to exclude from Git
-│
-├── /notebooks/project        # Model development folder
-│   ├── indian_news_article.ipynb  # Notebook to train model & export pickle files
-│   └── /Data                 # Raw CSV dataset
-│
-├── /screenshots              # UI demo images
-│   ├── default.png
-│   ├── search.png
-│   ├── recommendations.png
-│   └── redirect.png
+├── screenshots/              # UI demo images
+├── .gitignore                 # Files to exclude from Git
+├── README.md                  # Project documentation
+├── indian_news_article.ipynb  # Notebook to train model & export pickle files
+├── requirements.txt           # Python dependencies
+└── streamlit_app.py           # Streamlit Web App (Main Entry Point)
 ```
+## 🖼️ Project Demo
+
+### 1. Default View
+![Default View](screenshots/default.png)
+*The initial state of the application.*
+
+### 2. Searching for Articles
+![Search View](screenshots/search.png)
+*Inputting a query into the search bar.*
+
+### 3. Recommendations
+![Recommendations](screenshots/recommendations.png)
+*Top articles with relevance scores.*
+
+### 4. Source Redirection
+![Redirect 1](screenshots/redirect1.png)
+![Redirect 2](screenshots/redirect2.png)
+*Redirecting to the official Indian Express site.*
 
 ---
 
@@ -51,11 +62,15 @@ myenv\Scripts\activate
 source myenv/bin/activate
 ```
 
-### 3. Install Dependencies
+$1
 
-```bash
-pip install -r requirements.txt
-```
+## 📊 Dataset & Setup
+
+Due to GitHub's file size limits, the raw dataset is not stored directly in this repository.
+
+1. **Download the Dataset:** [Click here to download News_Articles_Indian_Express.csv](https://drive.google.com/file/d/1UORa4sRzpAc-eSfUSGoh_yc3g-C6Qplx/view?usp=drive_link)
+2. **Location:** Place the downloaded `.csv` file inside the `notebooks/project/` folder.
+3. **Train the Model:** Run all cells in `indian_news_article.ipynb`.
 
 ---
 
@@ -63,11 +78,10 @@ pip install -r requirements.txt
 
 Before running the Streamlit application, you must generate the processed data and vector files.
 
-1. Navigate to the `notebooks/project` folder.
-2. Open and run **`indian_news_article.ipynb`**.
-3. This notebook performs the following:
+1. Open and run **`indian_news_article.ipynb`**.
+2. This notebook performs the following:
 
-   * Loads the raw CSV dataset from the `/Data` subfolder.
+   * Loads the raw CSV dataset.
    * Cleans and preprocesses the news text.
    * Trains the recommendation pipeline using **CountVectorizer** and **Cosine Similarity**.
    * **Exports:**
@@ -75,7 +89,7 @@ Before running the Streamlit application, you must generate the processed data a
      * `articles.pkl` (Processed dataframe)
      * `cv.pkl` (The Vectorizer)
      * `vector.pkl` (The pre-calculated text vectors)
-4. Ensure these exported files are placed in the correct folder as expected by `streamlit_app.py`.
+3. Make sure these generated files are placed where `streamlit_app.py` expects them.
 
 ---
 
@@ -119,13 +133,3 @@ Open your browser and navigate to `http://127.0.0.1:8501` to use the recommender
 ---
 
 *Helping readers discover relevant news faster with NLP and machine learning.*
-
-## 👤 Author
-
-**Shashwat Pokharel**
-
-- 📧 Email:shashwatpokharel27@gmail.com  
-- 🔗 GitHub: https://github.com/shashwatpokharel27-dotcom  
-- 💼 LinkedIn: https:/www.linkedin.com/in/shashwat-pokharel/ 
-```
-
