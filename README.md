@@ -19,17 +19,21 @@ AI_News_Recommender/
 ### 1. Default View
 ![Default View](screenshots/default.png)
 *The initial state of the application.*
+-------------------------------------------------------------------------------------------------------
 
 ### 2. Searching for Articles
 ![Search View](screenshots/search.png)
 *Inputting a query into the search bar.*
+------------------------------------------------------------------------------------------------------
 
 ### 3. Recommendations
 ![Recommendations](screenshots/recommendations.png)
 *Top articles with relevance scores.*
+-------------------------------------------------------------------------------------------------------
 
 ### 4. Source Redirection
-![Redirect 1](screenshots/redirect1.png)
+![Redirect 1](screenshots/redirect1.png) 
+---
 ![Redirect 2](screenshots/redirect2.png)
 *Redirecting to the official Indian Express site.*
 
