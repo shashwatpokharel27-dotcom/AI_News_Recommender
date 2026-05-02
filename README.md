@@ -133,3 +133,14 @@ Open your browser and navigate to `http://127.0.0.1:8501` to use the recommender
 ---
 
 *Helping readers discover relevant news faster with NLP and machine learning.*
+
+
+## 👤 Author
+
+**Shashwat Pokharel**
+
+- 📧 Email:shashwatpokharel27@gmail.com  
+- 🔗 GitHub: https://github.com/shashwatpokharel27-dotcom  
+- 💼 LinkedIn: https:/www.linkedin.com/in/shashwat-pokharel/ 
+```
+
